@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        var nota1 = prompt('Digite a nota um do aluno: ')
+        var nota2 = prompt('Digite a nota dois do aluno: ')
+        var faltas = prompt('Digite a quantidade de faltas: ')
+
+        nota1 = parseFloat(nota1)
+        nota2 = parseFloat(nota2)
+
+        var media_Final = (((nota1 + nota2))/2)
+        var media = 7
+        var faltas_maximas = 15
+
+        if (media_Final >= media && faltas <= faltas_maximas) {
+         document.write('Aprovado')
+         } else {
+        document.write('Reprovado')
+         }
+         console.log(nota1)
+         console.log(nota2)
+         console.log(media_Final)
+         console.log(faltas)
+        
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
