@@ -4,9 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabuada</title>
 
-    <script>
+    <link rel="stylesheet" href="estilo.css">
+    <title>Tabuada</title>
+    
+</head>
+<body>
+
+    <div id="main-container">
+        <h1>Tabuada Divertida</h1>
+
+        <div class="row">
+            <button onclick="calcular('acao', 'c')" type="button" class="btn btn-dark btn-lg clear font-weight-light">Tabuada de Adição</button>
+            <button onclick="calcular('acao', '/')"  type="button" class="btn btn-dark btn-lg font-weight-light">Tabuada de Multiplicaçãoção</button>
+          </div>
+
+          <div class="row">
+            <button onclick="calcular('acao', '*')" type="button" class="btn btn-dark btn-lg font-weight-light">Tabuada de Divisão</button>
+            <button onclick="calcular('acao', '*')" type="button" class="btn btn-dark btn-lg font-weight-light">Tabuada de Subtração</button>
+          </div>
+
+    </div>
+
+    <!-- <script>
         //Tabuada multiplicação
             for (var y = 1; y <= 10; y++){
             
@@ -39,9 +59,7 @@
             }
             document.write('<hr />')
         }
-</script>
-</head>
-<body>
+</script> -->
     
 </body>
 </html>
