@@ -15,35 +15,42 @@
         <h1>Tabuada Divertida</h1>
 
         <div class="row">
-            <button onclick="calcular('acao', 'c')" type="button" class="btn btn-dark btn-lg clear font-weight-light">Tabuada de Adição</button>
-            <button onclick="calcular('acao', '/')"  type="button" class="btn btn-dark btn-lg font-weight-light">Tabuada de Multiplicaçãoção</button>
+            <button onclick="multiplicar('acao')" type="button" class="btn btn-dark btn-lg clear font-weight-light">Tabuada de Multiplicaçãoção</button>
+            <button onclick="dividir('acao')"  type="button" class="btn btn-dark btn-lg font-weight-light">Tabuada de Divisão</button>
           </div>
 
           <div class="row">
-            <button onclick="calcular('acao', '*')" type="button" class="btn btn-dark btn-lg font-weight-light">Tabuada de Divisão</button>
-            <button onclick="calcular('acao', '*')" type="button" class="btn btn-dark btn-lg font-weight-light">Tabuada de Subtração</button>
+            <button onclick="somar('acao')" type="button" class="btn btn-dark btn-lg font-weight-light">Tabuada de Adição</button>
+            <button onclick="subtrair('acao')" type="button" class="btn btn-dark btn-lg font-weight-light">Tabuada de Subtração</button>
           </div>
 
     </div>
 
-    <!-- <script>
-        //Tabuada multiplicação
-            for (var y = 1; y <= 10; y++){
+        <script>
+     //Tabuada multiplicação
+     function multiplicar(){
+         for (var y = 1; y <= 10; y++){
             
-            for(var x = 1; x <= 10; x++){
-                document.write(y + 'x' + x + '=' + (y * x) + '<br />')
-            }
+        for(var x = 1; x <= 10; x++){
+            document.write(y + 'x' + x + '=' + (y * x) + '<br />')
+             }
             document.write('<hr />')
         }
-        //Tabuada divisão
-        for (var y = 1; y <= 10; y++){
+    //    <button class="btn btn-light" type="submit"><a href="tabuada.html">Voltar</a></button>
+       
+     } 
+         //Tabuada divisão
+         function dividir(){
+       for (var y = 1; y <= 10; y++){
             
-            for(var x = 1; x <= 10; x++){
-                document.write(y + '/' + x + '=' + (y / x) + '<br />')
-            }
+           for(var x = 1; x <= 10; x++){
+           document.write(y + '/' + x + '=' + (y / x) + '<br />')
+           }
             document.write('<hr />')
         }
-        //Tabuada adição
+    }
+         //Tabuada adição
+         function somar(){
         for (var y = 1; y <= 10; y++){
         
             for(var x = 1; x <= 10; x++){
@@ -51,15 +58,19 @@
             }
             document.write('<hr />')
         }
+    }
         //Tabuada subtração
-        for (var y = 1; y <= 10; y++){
+        function subtrair(){
+     for (var y = 1; y <= 10; y++){
 
             for(var x = 1; x <= 10; x++){
                 document.write(y + '-' + x + '=' + (y - x) + '<br/>')
-            }
-            document.write('<hr />')
-        }
-</script> -->
+          }
+          document.write('<hr />')
+       }
+    }
+
+      </script>   
     
 </body>
 </html>
