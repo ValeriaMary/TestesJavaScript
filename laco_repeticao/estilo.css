@@ -10,7 +10,8 @@
   
 
 #main-container {
-    width: 400px;
+    width: 450px;
+    height: 400px;
     margin-left: auto;
     margin-right: auto;
     background-color: rgb(240, 240, 102);
@@ -31,8 +32,8 @@ body {
     background-position-y: -150px;
   }
 .btn {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 110px;
     margin: 5px;
     margin-left: 40px;
     box-shadow: 2px 2px 2px 2px rgb(14, 158, 33);
